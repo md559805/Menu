@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Roast & Reverie — Coffee Menu</title>
+  <link rel="icon" href="pics\0.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&family=Manrope:wght@300;400;600;800&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden>
+        <path d="M4 12c0 4.418 3.582 8 8 8s8-3.582 8-8h-16z" fill="currentColor"/>
+        <path d="M12 4c1.657 0 3 1.343 3 3v2h-6V7c0-1.657 1.343-3 3-3z" fill="currentColor" opacity="0.95"/>
+      </svg>
+      <div>
+        <h1>روست و رؤیا</h1>
+        <p class="tag">قهوهٔ مدرن، فضایی گرم و دلنشین</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <h2>صبح‌هایی آرام، دانه‌هایی با طعم ماندگار</h2>
+        <p>دانه‌های تک‌منشأ دست‌روست و کلاسیک‌های هنری — با دقت گزینش شده تا روزتان را روشن کند.</p>
+        <a class="cta" href="#menu">مشاهده منو</a>
+      </div>
+      <div class="hero-decor" aria-hidden>
+        <div class="cup" >
+            <img  class="profile" src="pics\0.png" alt="profile logo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h3 class="section-title">منو</h3>
+
+      <div class="category">
+        <button class="category-btn" data-category="drinks">
+          <span class="cat-title">نوشیدنی‌ها</span>
+          <span class="cat-toggle">▼</span>
+        </button>
+        <div class="category-items" id="drinks" style="display:grid">
+          <article class="card">
+            <img src="pics\3.jpg" alt="اسپرسو" class="card-img">
+            <div class="card-body">
+              <h4>اسپرسو</h4>
+              <p class="desc">غنی، متمرکز و ابریشمی — خالص‌ترین شات قهوه.</p>
+              <div class="meta">$3.00</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\4.jpg" alt="کاپوچینو" class="card-img">
+            <div class="card-body">
+              <h4>کاپوچینو</h4>
+              <p class="desc">شیر بخار داده‌شده، فوم سبک و تعادل ساده.</p>
+              <div class="meta">$4.50</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\1.jpg" alt="لاته" class="card-img">
+            <div class="card-body">
+              <h4>لاته</h4>
+              <p class="desc">میکروفوم ابریشمی و انتخاب شیر مطابق دلخواه.</p>
+              <div class="meta">$4.75</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\2.jpg" alt="کلد برو" class="card-img">
+            <div class="card-body">
+              <h4>کلد برو</h4>
+              <p class="desc">دم‌کردهٔ سرد، نرم و تازه — با سرو سرد.</p>
+              <div class="meta">$5.00</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\5.jpg" alt="موکا" class="card-img">
+            <div class="card-body">
+              <h4>موکا</h4>
+              <p class="desc">ترکیب شکلات و اسپرسو، یک کلاسیک دنج.</p>
+              <div class="meta">$5.25</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\6.jpg" alt="قهوهٔ فیلتر" class="card-img">
+            <div class="card-body">
+              <h4>قهوهٔ دمی</h4>
+              <p class="desc">پُر-اور تک‌منشأ، دم‌آوری شده برای برجسته‌سازی شفافیت طعم.</p>
+              <div class="meta">$4.25</div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="category">
+        <button class="category-btn" data-category="breakfast">
+          <span class="cat-title">صبحانه</span>
+          <span class="cat-toggle">▼</span>
+        </button>
+        <div class="category-items" id="breakfast" style="display:none">
+          <article class="card">
+            <img src="pics\10.jpg" alt="تخم‌مرغ و توست" class="card-img">
+            <div class="card-body">
+              <h4>تخم‌مرغ و توست</h4>
+              <p class="desc">تخم‌مرغ تازه با توست سیاه و مربا.</p>
+              <div class="meta">$6.50</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\11.jpg" alt="پنکیک" class="card-img">
+            <div class="card-body">
+              <h4>پنکیک</h4>
+              <p class="desc">پنکیک نرم با عسل و توت فرنگی.</p>
+              <div class="meta">$7.00</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\12.jpg" alt="مافین" class="card-img">
+            <div class="card-body">
+              <h4>مافین شکلات</h4>
+              <p class="desc">مافین تازه شکلات با قطعات شکلات مالت.</p>
+              <div class="meta">$4.00</div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="category">
+        <button class="category-btn" data-category="cakes">
+          <span class="cat-title">کیک‌ها</span>
+          <span class="cat-toggle">▼</span>
+        </button>
+        <div class="category-items" id="cakes" style="display:none">
+          <article class="card">
+            <img src="pics\13.jpg" alt="کیک شکلات" class="card-img">
+            <div class="card-body">
+              <h4>کیک شکلات</h4>
+              <p class="desc">کیک شکلات تیره با کرم شکلاتی بوشی.</p>
+              <div class="meta">$5.50</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\13.jpg" alt="کیک گلاب" class="card-img">
+            <div class="card-body">
+              <h4>کیک گلاب</h4>
+              <p class="desc">کیک مرطوب گلاب با شیره انار.</p>
+              <div class="meta">$5.00</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\13.jpg" alt="چیز‌کیک" class="card-img">
+            <div class="card-body">
+              <h4>چیز‌کیک تازه</h4>
+              <p class="desc">چیز‌کیک سبک با توت‌های تازه.</p>
+              <div class="meta">$6.00</div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="category">
+        <button class="category-btn" data-category="shakes">
+          <span class="cat-title">شیک‌ها</span>
+          <span class="cat-toggle">▼</span>
+        </button>
+        <div class="category-items" id="shakes" style="display:none">
+          <article class="card">
+            <img src="pics\7.jpg" alt="شیک توت‌فرنگی" class="card-img">
+            <div class="card-body">
+              <h4>شیک توت‌فرنگی</h4>
+              <p class="desc">شیک خنک توت‌فرنگی تازه با یوگورت.</p>
+              <div class="meta">$5.75</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\8.jpg" alt="شیک کاکائو" class="card-img">
+            <div class="card-body">
+              <h4>شیک کاکائو</h4>
+              <p class="desc">شیک شکلات و کاکائو با شیر طازه.</p>
+              <div class="meta">$5.50</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="pics\9.jpg" alt="شیک موز" class="card-img">
+            <div class="card-body">
+              <h4>شیک موز و زنجبیل</h4>
+              <p class="desc">شیک موز و زنجبیل برای انرژی و طاقت.</p>
+              <div class="meta">$5.25</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <h3 class="section-title">فضای ما</h3>
+      <p>ما دانه‌ها را در بچ‌های کوچک روست می‌کنیم، از کشاورزان محلی حمایت می‌کنیم و برای ساخت هر فنجان زمان می‌گذاریم. یک کتاب یا ایده‌های‌تان را بیاورید — بقیه را ما انجام می‌دهیم.</p>
+    </section>
+  </main>
+
+
+    <footer class="footer">
+    <p>باز هر روز • ۷:۰۰ تا ۱۶:۰۰ · خیابان بین ۱۲۳</p>
+    <p>© روست و رؤیا</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
